@@ -1,0 +1,230 @@
+
+body {
+      font-family: Arial, Verdana, sans-serif;
+      color: #665544;
+     padding: 20px;
+     background-color: #05D948;
+     margin: 0;}
+h1 {
+    font-weight:bold;
+    font-size: 200%;
+    text-transform: uppercase;
+    color: #ffffff;
+     text-shadow: 7px 2px #111111;
+    text-align: left;
+    font-family: Arial black ;
+    background-color: #3e2723;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 5px solid #a 1887f;
+  }
+    
+    
+       
+h2 {
+  text-transform: uppercase;
+   font-weight:bold;
+   font-size: 1.3em;
+   text-align: justify;
+  
+   color: #ffffff;
+    text-shadow: -1px -1px #666666;
+    }
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 100%;
+  color: black;
+  
+  text-transform: uppercase;
+}
+ 
+ h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #ffffff;
+  text-shadow: -1px -1px #aaaaaa;
+ }
+
+ h5 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14pt;
+  color: black;
+  
+  font-family: Arial black ;
+ }
+.column1of2 {
+  float: left;
+  width: 500px;
+  margin: 10px;
+}
+
+.column2of2 {
+  float: left;
+  width: 600px;
+  margin: 10px;
+  overflow: auto;
+
+}   
+
+@font-face {
+          font-family: 'ChunkFiveRegular';
+          src:url('fonts/chunkfive.eot');}
+     h1,h2,h3,h4 {
+            font-family: ChunkFiveRegular, Geogia, serif;}
+ 
+p {
+ text-align: justify;
+   font-size: 14px;
+    color: black;
+    font-weight: bold;}
+
+    .flex-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+
+    .image-card img {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 300px;
+      box-shadow: 0 4px 10px rgb(0,0,0,0,1);
+      transition: transform 0.3s;
+       }
+
+    .image-card img {
+      width: 100%;
+      display: flex;
+      transition: transform 0.3s;
+    }
+    
+     
+.flex-gallery img {
+  width: 400px;
+  border-radius: 100px;
+ 
+}
+
+/* Hover Effect */
+
+.flex-gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  cursor: pointer;
+  
+}
+
+  .desc {
+font-weight: bold;
+font-size: 14px;
+      text-align: center;
+      color: #5AAA0C;
+      
+
+    }
+
+
+
+.column3of2 {
+  float: left;
+  width: 500px;
+  margin: 10px;
+}
+
+.column3of3 {
+  float: left;
+  width: 600px;
+  margin: 10px;
+}
+  
+
+.styled-form {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.styled-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+.styled-form input,
+.styled-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect */
+.styled-form input:hover,
+.styled-form textarea:hover {
+  border-color: #007bff;
+}
+
+/* Focus Effect */
+.styled-form input:focus,
+.styled-form textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+/* Button Styling */
+.styled-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Button Hover Effect */
+.styled-form button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Button Focus Effect */
+.styled-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: blue;
+  background-color:black ;
+}
+
+nav a:hover {
+  color: red;
+}
+
+
+ 
